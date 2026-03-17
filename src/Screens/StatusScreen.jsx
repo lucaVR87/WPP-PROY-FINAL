@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { contactsData } from "C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/data/contactsData.jsx";
-import "C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/StatusScreen.css";
+import { contactsData } from "../data/contactsData.jsx";
+import "../styles/StatusScreen.css";
 
 const VIDEO_IDS = ['001', '022', '049', '002', '003', '046', '005'];
 

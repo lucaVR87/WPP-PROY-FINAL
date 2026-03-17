@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
-import { useChat } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ChatContext.jsx';
+import { useChat } from '../../context/ChatContext.jsx';
 import { Send, Check, CheckCheck, Smile } from 'lucide-react';
-import SmartHints from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/features/smart-hints/SmartHints.jsx';
+import SmartHints from '../../features/smart-hints/SmartHints.jsx';
 import EmojiPicker from 'emoji-picker-react';
 
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/ChatWindow.css';
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/emoji-adittions.css'
+import '../../styles/ChatWindow.css';
+import '../../styles/emoji-adittions.css'
 
 const ChatWindow = ({ isMobile, onBack }) => {
     const { id_usuario } = useParams();

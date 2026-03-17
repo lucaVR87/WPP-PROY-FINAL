@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
-import { useChat } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ChatContext.jsx';
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/BuckupPanel.css';
+import { useChat } from '../../context/ChatContext.jsx';
+import '../../styles/BuckupPanel.css';
 
 export default function BackupPanel() {
     const { exportBackup, importBackup } = useChat();

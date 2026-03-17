@@ -1,6 +1,6 @@
 import React from 'react';
 import { X } from 'lucide-react';
-import "C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/ContactScreen.css";
+import "../styles/ContactScreen.css";
 
 const ContactScreen = ({ contact, onClose }) => {
     if (!contact) return null;

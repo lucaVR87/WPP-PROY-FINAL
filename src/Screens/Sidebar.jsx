@@ -1,21 +1,21 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { useChat } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ChatContext.jsx';
+import { useChat } from '../context/ChatContext.jsx';
 import { useLocation, Link } from 'react-router-dom';
 import { MessageSquarePlus, EllipsisVertical, Search, X } from 'lucide-react';
-import { contactsData } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/data/contactsData.jsx';
-import { CANALES } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/data/canalesData.js';
-import ChannelIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/Channellcon.jsx';
-import ChatIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/ChatIcon.jsx';
-import ComunityIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/ComunityIcon.jsx';
-import SettingsIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/SettingsIcon.jsx';
-import StatusIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/StatusIcon.jsx';
-import MultimediaIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/MultimediaIcon.jsx';
-import ThemePanel from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/features/theme/ThemePanel.jsx';
-import BackupPanel from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/features/backup/BackupPanel.jsx';
-import FavoritesIllustration from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/FavoritesIlustration.jsx';
+import { contactsData } from '../data/contactsData.jsx';
+import { CANALES } from '../data/canalesData.js';
+import ChannelIcon from '../components/conmon/Channellcon.jsx';
+import ChatIcon from '../components/conmon/ChatIcon.jsx';
+import ComunityIcon from '../components/conmon/ComunityIcon.jsx';
+import SettingsIcon from '../components/conmon/SettingsIcon.jsx';
+import StatusIcon from '../components/conmon/StatusIcon.jsx';
+import MultimediaIcon from '../components/conmon/MultimediaIcon.jsx';
+import ThemePanel from '../features/theme/ThemePanel.jsx';
+import BackupPanel from '../features/backup/BackupPanel.jsx';
+import FavoritesIllustration from '../components/conmon/FavoritesIlustration.jsx';
 import StatusScreen from './StatusScreen.jsx';
 
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/Sidebar.css';
+import '../styles/Sidebar.css';
 
 // ── Helpers ───
 const ic = (active) => active ? 'var(--wa-nav-icon-active)' : 'var(--wa-nav-icon-color)';

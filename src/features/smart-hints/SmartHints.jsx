@@ -1,6 +1,6 @@
 
 import React from 'react';
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/SmartHints.css';
+import '../../styles/SmartHints.css';
 
 // ── Detectores ──────────────
 const EMAIL_RE = /([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-z]{2,})/gi;

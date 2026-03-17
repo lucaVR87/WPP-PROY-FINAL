@@ -1,5 +1,5 @@
 import React from 'react';
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/ContactItem.css';
+import '../../styles/ContactItem.css';
 
 const ContactItem = ({ name, lastMessage, time, unreadCount }) => {
     return (

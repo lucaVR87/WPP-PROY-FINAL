@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pencil, Copy } from 'lucide-react';
 import avatarImg from "/images/avatar.avif";
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/ProfileScreen.css'
+import '../styles/ProfileScreen.css'
 
 
 const ProfileScreen = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { useTheme, PRESETS } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ThemeContext.jsx';
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/ThemePanel.css';
+import { useTheme, PRESETS } from '../../context/ThemeContext.jsx';
+import '../../styles/ThemePanel.css';
 
 const CUSTOMIZABLE = [
     { var: '--wa-bg-chat', label: 'Fondo chat' },

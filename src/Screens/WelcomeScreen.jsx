@@ -1,6 +1,6 @@
 import React from 'react';
 import { Lock, FileText, UserPlus } from 'lucide-react';
-import "C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/WelcomeScreen.css";
+import "../styles/WelcomeScreen.css";
 
 function WelcomeScreen({ onOpenAddContact }) {
     return (

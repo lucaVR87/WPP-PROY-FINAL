@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/LoadingScreen.css';
+import '../styles/LoadingScreen.css';
 
 const LoadingScreen = ({ onFinished }) => {
     const [progress, setProgress] = useState(0);

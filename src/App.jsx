@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
-import { ChatProvider } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ChatContext.jsx';
-import { ThemeProvider, useTheme } from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ThemeContext.jsx';
+import { ChatProvider } from './context/ChatContext.jsx';
+import { ThemeProvider, useTheme } from './context/ThemeContext.jsx';
 
-import LoadingScreen from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/Screens/LoadingScreen.jsx';
-import Sidebar from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/Screens/Sidebar.jsx';
-import WelcomeScreen from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/Screens/WelcomeScreen.jsx';
-import AddContactPanel from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/chat/AddContactPanel.jsx';
-import WhatsAppLogin from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/Screens/WhatsAppLogin.jsx';
-import ChatWindow from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/chat/ChatWindow.jsx';
-import Login from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/Screens/Login.jsx';
+import LoadingScreen from './Screens/LoadingScreen.jsx';
+import Sidebar from './Screens/Sidebar.jsx';
+import WelcomeScreen from './Screens/WelcomeScreen.jsx';
+import AddContactPanel from './components/chat/AddContactPanel.jsx';
+import WhatsAppLogin from './Screens/WhatsAppLogin.jsx';
+import ChatWindow from './components/chat/ChatWindow.jsx';
+import Login from './Screens/Login.jsx';
 
 import './styles/variables.css';
 import './styles/index.css';

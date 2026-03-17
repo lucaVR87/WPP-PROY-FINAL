@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useChat } from "C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/context/ChatContext.jsx";
-import "C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/styles/Login.css";
+import { useChat } from "../context/ChatContext.jsx";
+import "../styles/Login.css";
 
 const Login = ({ onLogin }) => {
     const [user, setUser] = useState('');

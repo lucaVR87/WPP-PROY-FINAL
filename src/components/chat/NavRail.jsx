@@ -1,11 +1,11 @@
 
 import React from 'react';
-import ChannelIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/Channellcon.jsx';
-import ChatIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/ChatIcon.jsx';
-import ComunityIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/ComunityIcon.jsx';
-import SettingsIcon from '../components/conmon/SettingsIcon.jsx';
-import StatusIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/SettingsIcon.jsx';
-import MultimediaIcon from 'C:/Users/lucac/OneDrive/Desktop/UTN/wpp-proy-final/wpp-proy-final/src/components/conmon/MultimediaIcon.jsx';
+import ChannelIcon from '../conmon/Channellcon.jsx';
+import ChatIcon from '../conmon/ChatIcon.jsx';
+import ComunityIcon from '../conmon/ComunityIcon.jsx';
+import SettingsIcon from '../conmon/SettingsIcon.jsx';
+import StatusIcon from '../conmon/SettingsIcon.jsx';
+import MultimediaIcon from '../conmon/MultimediaIcon.jsx';
 
 
 const getColor = (isActive) =>

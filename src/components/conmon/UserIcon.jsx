@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarDefault from '/images/avatar.avif';
+import avatarDefault from './images/avatar.avif';
 
 const UserAvatarButton = ({ userPhotoUrl, onClick }) => {
     return (
