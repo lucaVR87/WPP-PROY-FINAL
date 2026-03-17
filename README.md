@@ -1,16 +1,36 @@
-# React + Vite
+Proyecto Final – Clon de WhatsApp Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en la creación de una aplicación web que replica el funcionamiento básico de WhatsApp Web utilizando React. El objetivo principal es recrear la experiencia de mensajería, incluyendo la visualización de chats, apertura de conversaciones y envío de mensajes.
 
-Currently, two official plugins are available:
+Tecnologías utilizadas
+React
+Vite
+React Router DOM
+CSS
+Vercel (para el despliegue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Funcionalidades
+Listado de chats
+Selección de conversaciones
+Visualización de mensajes dentro de cada chat
+Envío de mensajes a través de un formulario
+Navegación entre vistas mediante React Router
+Diseño adaptable a distintos tamaños de pantalla (320px–2000px)
 
-## React Compiler
+Enrutamiento
+Se utilizó React Router DOM implementando rutas dinámicas para cada conversación: /chat/:id
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Estados
+Se gestionaron estados con React para controlar:
+El chat seleccionado
+La lista de mensajes
+El contenido del input de mensajes
 
-## Expanding the ESLint configuration
+Desafíos
+Gestión del estado entre distintos componentes
+Implementación de un diseño responsive similar al de WhatsApp Web
+Simulación de datos para los chats
+Organización y reutilización de componentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Luca Manuel Caunedo
